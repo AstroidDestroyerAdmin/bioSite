@@ -1,0 +1,175 @@
+/*
+    Name: Orlando Camacho
+    Date: September 13, 2026
+    Assignment: 6.3 bioSite Development
+*/
+
+/* ---------- Basic Page Styling ---------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f1ea;
+    color: #263238;
+    line-height: 1.6;
+}
+
+
+/* ---------- Header ---------- */
+
+header {
+    background-color: #234e52;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 1.1em;
+}
+
+
+/* ---------- Navigation ---------- */
+
+nav {
+    background-color: #2f6f73;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.05em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e3a857;
+    text-decoration: underline;
+}
+
+
+/* ---------- Main Content ---------- */
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.hero {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.hero h2 {
+    color: #234e52;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+
+/* ---------- Content Sections ---------- */
+
+.content-section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+.content-section h2 {
+    color: #234e52;
+    font-size: 1.8em;
+    border-bottom: 3px solid #e3a857;
+    padding-bottom: 8px;
+}
+
+.content-section h3 {
+    color: #2f6f73;
+}
+
+
+/* ---------- Hobby Cards ---------- */
+
+.hobby-card {
+    background-color: #f8f8f8;
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 5px solid #e3a857;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12);
+}
+
+.hobby-card h3 {
+    margin-top: 0;
+    font-size: 1.4em;
+}
+
+
+/* ---------- Images ---------- */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figure {
+    margin: 20px 0;
+}
+
+figcaption {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #555;
+    margin-top: 5px;
+}
+
+
+/* ---------- Paragraphs ---------- */
+
+p {
+    font-size: 1em;
+    line-height: 1.7;
+    max-width: 75ch;
+}
+
+
+/* ---------- Links ---------- */
+
+a {
+    transition: 0.3s;
+}
+
+
+/* ---------- Footer ---------- */
+
+footer {
+    background-color: #234e52;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0 auto;
+}
